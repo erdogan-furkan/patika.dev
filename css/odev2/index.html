@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main {
+            margin-top: 0.5rem;
+        }
+
+        .center {
+            margin: 0 auto;
+            display: block;
+        }
+
+        #search {
+            background-color: #EEEEEE;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+
+        .boxes {
+            display: flex;
+            margin-top: 2px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2px;
+            text-align: center;
+            padding: 0.2rem 0;
+        }
+
+        .box1 {
+            background-color: #7EE5DA;
+            flex-grow: 2;
+        }
+
+        .box2 {
+            background-color: #70CCC2;
+            font-size: 0.8rem;
+            flex-grow: 1;
+        }
+
+        .box3 {
+            background-color: #62B3AA;
+            font-size: 0.8rem;
+            flex-grow: 2;
+            flex-direction: column;
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="main">
+            <img class="center" src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg"
+                alt="Google!">
+
+            <div id="search" class="center">
+                Search the web using Google!
+                <br>
+                <input type="text" size="40">
+                <br>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm feeling lucky">
+                <br>
+            </div>
+        </section>
+
+        <footer>
+            <div class="boxes">
+                <div class="box box1">
+                    <ul>
+                        <li>Special Searches</li>
+                        <li><a href="#">Stanford Search</a></li>
+                        <li><a href="#">Linux Search</a></li>
+                    </ul>
+                </div>
+                <div class="box box2">
+                    <ul>
+                        <li><a href="#">Help!</a></li>
+                        <li><a href="#">About Google!</a></li>
+                        <li><a href="#">Company Info</a></li>
+                        <li><a href="#">Google! Logos</a></li>
+                    </ul>
+                </div>
+                <div class="box box3">
+                    Get Google! <br>
+                    updates monthly: <br>
+                    <input type="text" value="your e-mail">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </div>
+            <br>
+            <p style="font-size: 0.75rem;">Copyright ©1998 Google Inc.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
