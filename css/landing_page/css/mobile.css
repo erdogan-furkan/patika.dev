@@ -1,0 +1,22 @@
+#navbar {
+  flex-direction: column;
+  height: 6rem;
+  padding: 0.75rem 0;
+}
+
+#training .items {
+  flex-direction: column;
+}
+
+#training .items .item {
+  width: 100%;
+}
+
+.courses .course {
+  flex-direction: column;
+}
+
+.courses .course .course-image {
+  margin-right: 0;
+  margin-bottom: 1.5rem;
+}

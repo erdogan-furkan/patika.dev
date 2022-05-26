@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar Section */
+
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 5rem;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+#navbar ul li a:hover {
+  background-color: #336ea2;
+}
+
+/* Home Section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75rem;
+}
+
+#home img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 100%;
+}
+
+#home .name h2 {
+  margin-bottom: 0.5rem;
+}
+
+#home .name p {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Trainings Section */
+
+#training {
+  color: #fff;
+  padding: 1rem;
+}
+
+#training .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#training .items .item {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#training .items .item:hover {
+  opacity: 0.5;
+}
+
+/* Courses Section */
+
+#courses {
+  color: #333;
+  padding: 1rem;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.courses .course {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.courses .course:hover {
+  opacity: 0.8;
+}
+
+.courses .course .course-image {
+  margin-right: 1.5rem;
+  position: relative;
+}
+
+.courses .course .course-image img {
+  border-radius: 5px;
+}
+
+.courses .course .course-image span {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  background-color: red;
+  padding: 0.25rem;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+}
+
+.courses .course .course-info .title {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.courses .course .course-info .description {
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+
+.courses .course .course-info .instructor {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+
+.courses .course .course-info .rating {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Contact Section */
+
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+
+#contact .contact-form {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+#contact .contact-form ul li a {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#contact .contact-form ul li a:hover {
+  opacity: 0.8;
+}

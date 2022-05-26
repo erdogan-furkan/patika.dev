@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+    <meta name="keywords" content="Landing Page, HTML, CSS">
+    <meta name="description" content="Landing Page">
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1>Username</h1>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Trainings</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/image.jpg" alt="User Profile Image">
+        <div class="name text-center">
+            <h2 class="heading-big">Username</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, eum.</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">View courses</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Trainings</h3>
+
+        <div class="items">
+            <article class="item">
+
+                <h3><i class="fa fa-pencil-alt"></i> In-class Trainings</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, rem.</p>
+            </article>
+            <article class="item">
+                <h3><i class="fa fa-pencil-alt"></i> Online Trainings</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, dolores.</p>
+            </article>
+            <article class="item">
+                <h3><i class="fa fa-pencil-alt"></i> Conferences</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, id.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course_image.jpg" alt="Course 1 Image">
+                        <span>%90 Discount</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Course 1
+                        </div>
+                        <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo suscipit magni
+                            recusandae debitis eveniet est? Ipsa sint corporis dolorem?
+                        </div>
+                        <div class="instructor">
+                            Username
+                        </div>
+                        <div class="rating">
+                            4.9
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course_image.jpg" alt="Course 2 Image">
+                        <span>%90 Discount</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Course 2
+                        </div>
+                        <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo suscipit magni
+                            recusandae debitis eveniet est? Ipsa sint corporis dolorem?
+                        </div>
+                        <div class="instructor">
+                            Username
+                        </div>
+                        <div class="rating">
+                            4.7
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/course_image.jpg" alt="Course 3 Image">
+                        <span>%90 Discount</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">
+                            Course 3
+                        </div>
+                        <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo suscipit magni
+                            recusandae debitis eveniet est? Ipsa sint corporis dolorem?
+                        </div>
+                        <div class="instructor">
+                            Username
+                        </div>
+                        <div class="rating">
+                            4.5
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact me</h4>
+
+                <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="5"
+                        placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
