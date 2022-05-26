@@ -1,0 +1,183 @@
+/* Hero Section */
+.hero-section {
+  margin: 150px 0 100px 0;
+}
+
+.hero-section .hero-image {
+  padding-top: 5rem;
+}
+
+.hero-section .hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.hero-section .hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #212353;
+  line-height: 110%;
+  max-width: 645px;
+  margin-bottom: 50px;
+}
+
+.hero-section .hero-content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4b5d68;
+  line-height: 160%;
+  max-width: 380px;
+  margin-bottom: 50px;
+}
+
+/* Pink Section */
+.pink-section {
+  margin-bottom: 150px;
+}
+
+.pink-section-background {
+  background-image: url("../img/pink-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pink-section .pink-section-content {
+  padding-right: 90px;
+}
+
+.pink-section .pink-section-content h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+  margin-bottom: 40px;
+}
+
+.pink-section .pink-section-content p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+/* Features Section */
+.features-section .features-header {
+  max-width: 584px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.features-section .features-header h2 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.features-section .features-header p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+@media screen and (min-width: 1024px) {
+  .card-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .card-1-background {
+    background-image: url("../img/card-green.svg");
+  }
+
+  .card-2-background {
+    background-image: url("../img/card-purple.svg");
+  }
+
+  .card-3-background {
+    background-image: url("../img/card-pink.svg");
+  }
+
+  .card-4-background {
+    background-image: url("../img/card-blue.svg");
+  }
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  overflow-x: hidden;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.testimonials-section h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.testimonials-background {
+  background-image: url("../img/testimonials-background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 110px;
+  padding-left: 93px;
+  padding-bottom: 130px;
+}
+
+@media screen and (max-width: 600px) {
+  /* Hero Section */
+  .hero-section .hero-content {
+    position: unset;
+  }
+
+  .hero-section .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-section .hero-content p {
+    font-size: 15px;
+  }
+
+  /* Pink Section */
+  .pink-section .pink-section-content {
+    padding-right: 0;
+  }
+
+  .pink-section .pink-section-content h2 {
+    font-size: 30px;
+  }
+
+  .pink-section .pink-section-content p {
+    font-size: 15px;
+  }
+
+  /* Features Section */
+  .features-section .features-header h2 {
+    font-size: 30px;
+  }
+
+  .features-section .features-header p {
+    font-size: 15px;
+  }
+
+  /* Testimonials Section */
+  .testimonials-section h3 {
+    font-size: 30px;
+  }
+
+  .testimonials-background {
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+  }
+}

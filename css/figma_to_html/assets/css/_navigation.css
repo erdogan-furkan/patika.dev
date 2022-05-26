@@ -1,0 +1,28 @@
+.navigation {
+  margin-left: 120px;
+}
+
+.navigation .navigation-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.navigation .navigation-list .navigation-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navigation .navigation-list .navigation-item .navigation-link {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4b5d68;
+}
+
+.navigation .navigation-list .navigation-item:hover .navigation-link {
+  color: #212353;
+  font-weight: 800;
+}
