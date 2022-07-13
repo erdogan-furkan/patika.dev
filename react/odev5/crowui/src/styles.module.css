@@ -1,0 +1,53 @@
+/* add css module styles here (optional) */
+
+button {
+  background-color: #fff;
+  color: #000000d9;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  padding: 0.3rem 3rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #40a9ff;
+  color: #fff;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
+.text {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.text:hover {
+  color: #000000d9;
+  background: rgba(0, 0, 0, 0.018);
+  border-color: transparent;
+}
+
+.link {
+  color: #1890ff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.link:hover {
+  color: #40a9ff;
+  background-color: transparent;
+  border-color: transparent;
+}
